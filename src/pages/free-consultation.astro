@@ -69,12 +69,20 @@ const description = "Get a free pedestrian accident case evaluation. No fees unl
               <textarea name="description" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg resize-none" placeholder="What happened? Where were you? What injuries did you sustain?"></textarea>
             </div>
             
+            <div class="flex items-start gap-2">
+              <input type="checkbox" id="consent" name="consent" required class="mt-1" />
+              <label for="consent" class="text-xs text-gray-600">
+                I consent to receive calls and text messages (SMS) regarding my case. Message frequency varies. Msg & data rates may apply. Reply STOP to opt out. 
+                <a href="/privacy/" class="underline">Privacy Policy</a>
+              </label>
+            </div>
+            
             <button type="submit" class="w-full btn btn-cta text-xl py-5">
               Get My Free Evaluation →
             </button>
             
             <p class="text-center text-sm text-gray-500">
-              🔒 Your information is confidential and protected. By submitting, you agree to our Privacy Policy.
+              🔒 Your information is secure and confidential.
             </p>
           </form>
         </div>
